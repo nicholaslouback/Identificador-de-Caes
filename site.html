@@ -10,26 +10,28 @@
     <header>
         <h1>Olá</h1>
     </header>
-    <main>
-        <section>
-            <div id="nasc"> 
-                <p>Idade:</p>
-                <input type="number" value="ano">
-            </div>
-            <div id="tam">
-                <p>Tamanho:</p>
-                <input type="text" value="Escreva">
-            </div>
-            <div id="sexo">
-                <p>Sexo: 
-                <input type="radio" name="sexo" id="masc"> Macho
-                <input type="radio" name="sexo" id="fem"> Fêmea</p>
-            </div>
-            <p>
-                <button id="button">Verificar</button>
-            </p>
+    <section>
+        <div id="nasc"> 
+            <p>Idade do cão:</p>
+           <input type="number" name="idad" value="idade">
+        </div>
+        <div id="tam">
+            <p>Tamanho:</p>
+            <input type="text" name="tam" value="Escreva">
+        </div>
+        <div id="sexo">
+            <p>Sexo: 
+            <input type="radio" name="sexo" id="masc"> Macho
+            <input type="radio" name="sexo" id="fem"> Fêmea</p>
+        </div>
+        <p>
+           <button id="button" onclick="verificar()">Verificar</button><br>
+        </p>
+        <div id="resultado">
             <img src="11zon_cropped (3).png" alt="golden">
-        </section>
-    </main>
+        </div>
+    </section>
+    <footer></footer>
+    <script src="script.js"></script>
 </body>
 </html>
